@@ -1,5 +1,5 @@
 from django.urls import path
-from usuarios import views
+from vistaprevia import views
 
 urlpatterns = [
     path('', views.index, name='index'),
