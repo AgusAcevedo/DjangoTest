@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-
-<html>
-    <head>
-
-
-
-
-    </head>
-
-    <body>
-        {% block content %}{% endblock %}
-
-
-    </body>
+{% load static %}
+<!Doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+	   	<meta name="viewport" content="width=device-width, initial-scale=1">
+	   	<title>{% block title %}{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}{% endblock %}</title>
+		<meta name="keywords" content="{{ palabras_claves }}" />
+		<meta name="description" content="{{ descripcion }}" />
+	   	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+	</head>
+	<body>
+		{% block content %}
+		
+		{% endblock %}
+	</body>
 </html>

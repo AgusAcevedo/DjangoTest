@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
+{% extends "layout.html" %}
+{% load static %}
 
-    </head>
-    <body>
+{% block contenedor %}
+            <h1>Hola {{nombre_sitio}}</h1>
+            <h2> Hola </h2>
+            <p>Hola</p>
 
-        <h1>Hola {{nombre_sitio}}</h1>
-        <h2>Hola</h2>
-        <p>Holanda</p>
-    </body>
-</html>
+            <div>div 1</div>
+            <div>div 2</div>
+            <div>div 3</div>
+    
+{% endblock %}
