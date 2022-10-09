@@ -1,46 +1,15 @@
-body{
-    margin:0px;
-    padding:0px
-}
-div{
-    float:left;
-    width: 100%;
-    height: 70px;
-    background-color: #5D5EE6;
-    border: solid 1px #333;
-    margin: 0px;
-    padding: 0px;
+p {
+  color: #02F520;
+  font-size: 20px;
+  width: 265px;
+  height: 110px;
 }
 
-@media screen and (min-width: 576px){
-    div{
-        background-color: #e6d468;
-    }
+#mi_parrafo {
+  color: #02F520;
+  background-color: #ff9966;
 }
 
-@media screen and (min-width: 768px){
-    div{
-        background-color: #57e668;
-        width: 49.5%
-    }
-}
-
-@media screen and (min-width: 992px){
-    div{
-        background-color: #6ad2e6;
-        width: 33%
-    }
-}
-
-@media screen and (min-width: 1200px){
-    div{
-        background-color: #ad6de6;
-    }
-}
-
-@media screen and (min-width: 1400px){
-    div{
-        background-color: #e6756b;
-
-    }
-}
+.color1{background-color:#F0738F;}
+.color2{background-color:#0CF86C;}
+.color3{background-color:#0CACF8;}
