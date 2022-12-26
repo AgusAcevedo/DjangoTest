@@ -44,11 +44,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #Apps de terceros
-
+    'captcha',
 
     #Mis apps
     'vistaprevia.apps.VistapreviaConfig',
     'usuarios.apps.UsuariosConfig',
+    'productos.apps.ProductosConfig',
+    'contacto.apps.ContactoConfig',
+    'tienda.apps.TiendaConfig',
+    
 ]
 
 MIDDLEWARE = [

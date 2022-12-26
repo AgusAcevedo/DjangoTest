@@ -12988,8 +12988,6 @@ fieldset:disabled .btn {
 }
 
 /* COLORES */
-/* FUENTES */
-/* TAMANOS FUENTES */
 /* line 1, ../../../../../Users/agustinacevedo/Documents/Py_Local_Scripts/diplotst/static_dev/scss/header.scss */
 p {
   color: #ffaa00;
@@ -13001,7 +12999,7 @@ p {
 /* line 8, ../../../../../Users/agustinacevedo/Documents/Py_Local_Scripts/diplotst/static_dev/scss/header.scss */
 #mi_parrafo {
   color: #02F520;
-  background-color: #ffaa00;
+  background-color: #ff9966;
 }
 
 /* line 13, ../../../../../Users/agustinacevedo/Documents/Py_Local_Scripts/diplotst/static_dev/scss/header.scss */

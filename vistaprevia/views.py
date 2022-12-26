@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.db.models import Q
-from vistaprevia.models import Producto
+from productos.models import Producto
 # Create your views here.
 """
 def index(request):
